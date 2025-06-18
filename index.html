@@ -1,14 +1,24 @@
 <!Document html>
-<html lang="en">
+  <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cakes</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Prosto+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/catalog.css">
+
   </head>
+
   <body>
-    <header>
+    <header class="container">
       <h1>Cладкий сундук</h1>
       <div class="header-right">
         <div class="header-adress">
@@ -25,19 +35,38 @@
       </div>
     </header>
     <main>
-      <section class="bunner">
+      <section class="bunner container">
         <div class="bunner-content">
           <p class="bunner-overtitle">Вкуснейшие</p>
           <h1>Пирожные + копкейки всем и сразу!</h1>
           <h2>Приготовим за 5 секунд и доставим на истребители!</h2>
-          <div>
+          <div class="bunner-buttons">
             <a class="bunner-catolog" href=""> Перейти в каталог </a>
 
             <p>100500 различных видов на ваш выбор</p>
           </div>
         </div>
       </section>
+      <section class="catalog container">
+        <h1>Супер классные тортики и кексы</h1>
+        <div class="catalog-list">
+          <article class="catalog-item">
+            <img src="./assets/images/Cake.png" alt="">
+            <div class="otem-content">
+              <div class="catalog-item" h3>Заголовок кейка </h3>
+                <p>Описание какеса</p>
+              </div>
+              <p class="item-price">1млн/штука</p>
+              <button class="item-bth-order"> Купить</button>
+          </article>
+
+        </div>
+
+
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
-</html>
+
+  </html>

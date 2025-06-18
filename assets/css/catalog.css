@@ -1,0 +1,45 @@
+.catalog {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-top: 40px;
+
+    h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+}
+
+.catalog-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+
+    width: 380px;
+    height: 582px;
+
+    border: 1px solid rgba(163, 163, 218, 0.5);
+
+
+
+    p {
+        font-size: 16px;
+    }
+
+}
+
+.item-content {
+    padding-top: 0z;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.item-bth-order {
+    padding: 20px 40px;
+    background-color: rgb(211, 165, 132);
+    align-self: flex-start;
+    border: none;
+    border-radius: 8px;
+}

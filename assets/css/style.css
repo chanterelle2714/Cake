@@ -12,7 +12,7 @@ header {
   z-index: 1000;
   border-bottom: 1px solid #7e868e;
 
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .header-right {
@@ -20,11 +20,15 @@ header {
   align-items: center;
   gap: 20px;
 }
+
 .header-adress,
 .header-phone {
-  display: flex;
   align-items: centrel;
   gap: 10px;
+
+  * {
+    font-family: "Prosto One", sans-serif;
+  }
 }
 
 .bunner {
@@ -43,20 +47,57 @@ header {
   flex-direction: column;
   gap: 24px;
   align-items: start;
+
+  max-width: 600px;
+  text-wrap: balance;
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 24px;
+
+  }
 }
+
 .bunner-overtitle {
-  background-color: white;
-  color: black;
+  background-color: rgb(227, 39, 161);
+  color: rgb(212, 143, 180);
   text-transform: uppercase;
   padding: 10px 18px;
   border-radius: 11px;
+  transition: all 0.3s;
+  font-size: 11px;
+  letter-spacing: 10%;
 }
+
+  .bunner-overtitle:hover {
+background-color: brown;
+
+  }
+
+
+
+
 
 .bunner-catolog {
   display: block;
-  background-color: rgb(117, 89, 56);
-  color: rgb(229, 185, 128);
+  background-color: rgb(240, 168, 210);
+  color: rgb(0, 0, 0);
   padding: 30px 50px;
   border-radius: 8px;
   text-decoration: none;
+  transition: all 0.3s;
+
+  }
+
+  .bunner-catolog:hover {
+    background-color: rgb(213, 59, 111);
+  }
+
+.bunner-buttons{
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
