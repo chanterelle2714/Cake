@@ -57,7 +57,6 @@ header {
 
   h2 {
     font-size: 24px;
-
   }
 }
 
@@ -72,14 +71,9 @@ header {
   letter-spacing: 10%;
 }
 
-  .bunner-overtitle:hover {
-background-color: brown;
-
-  }
-
-
-
-
+.bunner-overtitle:hover {
+  background-color: brown;
+}
 
 .bunner-catolog {
   display: block;
@@ -89,14 +83,13 @@ background-color: brown;
   border-radius: 8px;
   text-decoration: none;
   transition: all 0.3s;
+}
 
-  }
+.bunner-catolog:hover {
+  background-color: rgb(213, 59, 111);
+}
 
-  .bunner-catolog:hover {
-    background-color: rgb(213, 59, 111);
-  }
-
-.bunner-buttons{
+.bunner-buttons {
   display: flex;
   gap: 20px;
   align-items: center;
