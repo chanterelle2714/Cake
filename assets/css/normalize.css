@@ -6,6 +6,6 @@
 }
 
 .container {
-  padding-left: max( 16px, 10vw);
-  padding-right: max( 16px, 10vw);
+  padding-left: max(5px, 10vw);
+  padding-right: max(5px, 10vw);
 }
